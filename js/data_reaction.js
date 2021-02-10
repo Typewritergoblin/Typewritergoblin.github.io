@@ -32,5 +32,30 @@ data_reaction = [
             "Trigger: specified by the spell.",
             "For further details, see the <i>Cast a spell</i> action."
         ]
-    }
+    },
+    {
+        title: "Guard",
+        icon: "shield-reflect",
+        subtitle: "Enemy attacks you",
+        description: "Reduce the damage you take by steeling yourself for impact",
+        reference: "Icara Homebrew",
+        bullets: [
+            "Trigger: enemy creature you can see attacks you.",
+            "Roll a Strength (Athletics) check with DC 15",
+            "On a success, reduce the damage you take by your armors Guard value."
+        ]
+    },
+    {
+        title: "Parry",
+        icon: "sword-break",
+        subtitle: "Enemy attacks you",
+        description: "Attempt to deflect the enemy blow",
+        reference: "Icara Homebrew",
+        bullets: [
+            "Trigger: enemy creature you can see leaves your reach.",
+            "Make one melee attack - compare the number to the enemy attack roll.",
+            "If you match or exceed the enemy attack roll, you take half damage from the attack.",
+            "Critical Success: If you roll a critical success and the enemy does not, you automatically succeed. If you roll a critical success and the match or exceed the enemy attack roll, you take no damage from the attack."
+        ]
+    },
 ]
