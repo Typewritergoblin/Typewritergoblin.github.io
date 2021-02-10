@@ -13,6 +13,18 @@ data_bonusaction = [
         ]
     },
     {
+        title: "Use Prepared Item",
+        icon: "snatch",
+        subtitle: "Use an available item",
+        description: "Use an item designed to be used quickly",
+        reference: "Icara Homebrew",
+        bullets: [
+            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If using an item that is quickly available, use this item.",
+            "Items that can be grabbed and used with a single motion (or reasonably close to a single motion) can be used as prepared items.",
+            "Common prepared items are potions on the belt or in hand, poisons administered quickly on the blade, or throwing a handful of objects drawn from a belt or accessible hidden pouch."
+        ]
+    },
+    {
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action",

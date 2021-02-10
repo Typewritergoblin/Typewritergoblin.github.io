@@ -178,6 +178,18 @@ data_action = [
     {
         title: "Administer First Aid",
         icon: "first-aid",
+        subtitle: "Administer first aid to a bloodied creature",
+        description: "Heal a bloodied creatures wounds",
+        reference: "Icara Homebrew",
+        bullets: [
+            "Make a Wisdom (Medicine) check with DC 15",
+            "On a success, roll the creatures hit die. The creature regains that many hit points. ",
+            "They cannot recover health from first aid again until they finish a short rest."
+        ]
+    },
+    {
+        title: "Stabilize the Dying",
+        icon: "first-aid",
         subtitle: "Administer first aid to a dying creature",
         description: "Stop a dying creature from needing to make death saving throws",
         reference: "Icara Homebrew",
