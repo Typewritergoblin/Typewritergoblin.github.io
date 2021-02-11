@@ -19,7 +19,7 @@ data_reaction = [
         description: "Execute the reaction specified by your Ready action",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Trigger: specified by your <strong>Ready</strong> action."
         ]
     },
     {
@@ -30,7 +30,7 @@ data_reaction = [
         reference: "PHB, pg. 192.",
         bullets: [
             "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "For further details, see the <strong>Cast a spell</strong> action."
         ]
     },
     {
@@ -41,8 +41,8 @@ data_reaction = [
         reference: "Icara Homebrew",
         bullets: [
             "Trigger: enemy creature you can see attacks you.",
-            "Roll a Strength (Athletics) check with DC 15",
-            "On a success, reduce the damage you take by your armors Guard value."
+            "Roll an <strong>Athletics</strong> check with DC 15.",
+            "On a success, reduce the damage you take by your <strong>Guard</strong> value."
         ]
     },
     {
@@ -55,7 +55,8 @@ data_reaction = [
             "Trigger: enemy creature you can see leaves your reach.",
             "Make one melee attack - compare the number to the enemy attack roll.",
             "If you match or exceed the enemy attack roll, you take half damage from the attack.",
-            "Critical Success: If you roll a critical success and the enemy does not, you automatically succeed. If you roll a critical success and the match or exceed the enemy attack roll, you take no damage from the attack."
+            "Critical Success: If you roll a critical success and the enemy does not, you automatically succeed.",
+            "If you roll a critical success and match or exceed the enemy attack roll, you take no damage from the attack."
         ]
     },
 ]

@@ -89,7 +89,7 @@ data_action = [
         description: "Escape a grapple",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
+            "To escape a grapple, you must succeed on a <strong>Athletics</strong> or <strong>Acrobatics</strong> check contested by the grappler's <strong>Athletics</strong> check.",
             "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
         ]
     },
@@ -125,19 +125,19 @@ data_action = [
         bullets: [
             "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
             "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "When you try to hide, make a <strong>Stealth</strong> check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
+            "A creature notices you even if it isn't searching unless your <strong>Stealth</strong> check is higher than its Passive Perception.",
+            "Out of combat, you may also use a <strong>Stealth</strong> check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
         ]
     },
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "",
+        subtitle: "Search an area",
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "Depending on the nature of your search, the DM might have you make a <strong>Perception</strong> check or an <strong>Investigation</strong> check."
         ]
     },
     {
@@ -179,7 +179,7 @@ data_action = [
         title: "Administer First Aid",
         icon: "first-aid",
         subtitle: "Administer first aid to a bloodied creature",
-        description: "Heal a bloodied creatures wounds",
+        description: "Heal a bloodied ally",
         reference: "Icara Homebrew",
         bullets: [
             "Make a Wisdom (Medicine) check with DC 15",
@@ -190,13 +190,13 @@ data_action = [
     {
         title: "Stabilize the Dying",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
+        subtitle: "Help a dying creature",
         description: "Stop a dying creature from needing to make death saving throws",
         reference: "Icara Homebrew",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Make a <strong>Medicine</strong> check with DC 10",
+            "On a success, the creature is stable and no longer needs to make death saving throws.",
+            "A stable creature regains 1 hit point after 1d4 hours."
         ]
     },
     {
