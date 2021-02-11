@@ -178,8 +178,8 @@ data_action = [
     {
         title: "Administer First Aid",
         icon: "first-aid",
-        subtitle: "Administer first aid to a bloodied creature",
-        description: "Heal a bloodied ally",
+        subtitle: "Heal a bloodied ally",
+        description: "Administer first aid to a bloodied creature",
         reference: "Icara Homebrew",
         bullets: [
             "Make a Wisdom (Medicine) check with DC 15",
