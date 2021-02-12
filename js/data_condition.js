@@ -14,7 +14,7 @@ data_condition = [
     {
         title: "Bloodied",
         icon: "cut-palm",
-        subtitle: "You're wounded",
+        subtitle: "You are wounded",
         description: "You lose more than half of your hit points",
         reference: "Icara Homebrew",
         bullets: [
