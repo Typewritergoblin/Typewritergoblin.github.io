@@ -12,6 +12,17 @@ data_condition = [
         ]
     },
     {
+        title: "Bloodied",
+        icon: "cut-palm",
+        subtitle: "You're wounded",
+        description: "You lose more than half of your hit points",
+        reference: "Icara Homebrew",
+        bullets: [
+            "If your current hit points dip below half of your hit point maximum, you are bloodied.",
+            "This has no direct effect on your character, but it may trigger conditions for other enemies and allies"
+        ]
+    },
+    {
         title: "Charmed",
         icon: "smitten",
         subtitle: "You are charmed",
@@ -88,6 +99,16 @@ data_condition = [
             "You can still be detected by any noise you make or tracks you leave.",
             "You have advantage on attack rolls.",
             "Attack rolls against you have disadvantage."
+        ]
+    },
+    {
+        title: "Near Death",
+        icon: "death-skull",
+        subtitle: "You are vulnerable",
+        description: "Your hit points threshold is incredibly low.",
+        bullets: [
+            "If you have less than 10 hit points, you are considered near death.",
+            "While this has no immediate impact on your character, it can be used as a trigger for other enemy or ally abilities."
         ]
     },
     {
@@ -190,10 +211,10 @@ data_condition = [
             "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
             "A 10 or higher is a success, 9 or lower is a failure.",
             "On your third success, you become stable.",
-            "On your third failure, you die.",
+            "On your third failure, you immediately roll on the Major Injury Table. If you survive, you cannot be raised above 0 hit points until you finish a long rest.",
             "Rolling a 1 counts as two failures.",
             "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
+            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 <b>Medicine</b> check.",
             "Once stable, you regain 1 hit point after 1d4 hours."
         ]
     }

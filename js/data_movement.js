@@ -42,7 +42,7 @@ data_movement = [
         bullets: [
             "You can drop prone without using any of your speed",
             "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Dropping prone adds the <b>Prone</b> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
         ]
     },
     {

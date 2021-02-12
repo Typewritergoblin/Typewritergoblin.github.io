@@ -6,9 +6,9 @@ data_action = [
         description: "Perform a melee or ranged attack with your weapon",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
+            "Certain features, such as the <b>Extra Attack</b> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
+            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <b>Offhand attack</b> bonus action).",
+            "You may replace one of your melee attacks with a <b>Grapple</b> or a <b>Shove</b>.",
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
             "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
         ]
@@ -20,12 +20,25 @@ data_action = [
         description: "Attempt to grab a creature or wrestle with it",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "You can use the <b>Attack</b> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
             "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Using at least one free hand, you try to seize the target by making a grapple check, an <b>Athletics</b> check contested by the target's <b>Athletics</b> or <b>Acrobatics</b> check (the target chooses the ability to use).",
+            "If you succeed, you subject the target to the <b>Grappled</b> condition (its speed is set to 0). Your speed is halved while grappling, but you may release the target as a free action."
         ]
     },
+    {
+        title: "Pin",
+        icon: "grab",
+        subtitle: "Special melee attack",
+        description: "Attempt to grab a creature or wrestle with it",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "You can use the <b>Attack</b> action to make a special melee attack to restrain someone you are grappling. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "The target of your pin must be no more than one size larger than you, and it must currently grappled.",
+            "Using both hands, you try to restrain the target by making a grapple check, an <b>Athletics</b> check contested by the target's <b>Athletics</b> or <b>Acrobatics</b> check (the target chooses the ability to use).",
+            "If you succeed, both you and the target are subject to the <b>Restrained</b> condition. You may not move, but you may drop prone with the target. You may release the target as a free action."
+        ]
+    },    
     {
         title: "Shove",
         icon: "hand",
@@ -33,7 +46,7 @@ data_action = [
         description: "Shove a creature, either to knock it prone or push it away from you",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "Using the <b>Attack</b> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
             "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
             "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
             "If you win the contest, you either knock the target prone or push it 5 feet away from you."
@@ -79,7 +92,7 @@ data_action = [
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "You lose this benefit if you are <b>incapacitated</b> or if your speed drops to 0."
         ]
     },
     {
@@ -89,7 +102,7 @@ data_action = [
         description: "Escape a grapple",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a <strong>Athletics</strong> or <strong>Acrobatics</strong> check contested by the grappler's <strong>Athletics</strong> check.",
+            "To escape a grapple or a pin, you must succeed on a <b>Athletics</b> or <b>Acrobatics</b> check contested by the grappler's <b>Athletics</b> check.",
             "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
         ]
     },
@@ -125,9 +138,9 @@ data_action = [
         bullets: [
             "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
             "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a <strong>Stealth</strong> check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your <strong>Stealth</strong> check is higher than its Passive Perception.",
-            "Out of combat, you may also use a <strong>Stealth</strong> check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "When you try to hide, make a <b>Stealth</b> check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
+            "A creature notices you even if it isn't searching unless your <b>Stealth</b> check is higher than its Passive Perception.",
+            "Out of combat, you may also use a <b>Stealth</b> check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
         ]
     },
     {
@@ -137,7 +150,7 @@ data_action = [
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a <strong>Perception</strong> check or an <strong>Investigation</strong> check."
+            "Depending on the nature of your search, the DM might have you make a <b>Perception</b> check or an <b>Investigation</b> check."
         ]
     },
     {
@@ -182,21 +195,23 @@ data_action = [
         description: "Administer first aid to a bloodied creature",
         reference: "Icara Homebrew",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 15",
-            "On a success, roll the creatures hit die. The creature regains that many hit points. ",
-            "They cannot recover health from first aid again until they finish a short rest."
+            "If you have healer's supplies, you may treat a <b>Bloodied</b> ally. Make a <b>Medicine</b> check with DC 10.",
+            "On a success, the creature regains hit points equal to your wisdom modifier. They cannot recover health from first aid again until they finish a short rest.",
+            "On a success of 5 or more, roll the creatures hit die. The creature regains hit points equal to the roll + your wisdom modifier instead.",
+            "On a success of 10 or more, roll 2 of the creatures hit dice. The creature regains additional hit points equal to the roll + your wisdom modifier instead."
         ]
     },
     {
         title: "Stabilize the Dying",
         icon: "first-aid",
         subtitle: "Help a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
+        description: "Treat a dying creature to prevent more death saving throws.",
         reference: "Icara Homebrew",
         bullets: [
-            "Make a <strong>Medicine</strong> check with DC 10",
+            "Make a <b>Medicine</b> check with DC 10",
             "On a success, the creature is stable and no longer needs to make death saving throws.",
-            "A stable creature regains 1 hit point after 1d4 hours."
+            "A stable creature regains 1 hit point after 1d4 hours.",
+            "On a success of 10 or more, the character regains 1 hit point immediately."
         ]
     },
     {
