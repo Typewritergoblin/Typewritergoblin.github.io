@@ -44,16 +44,31 @@ data_condition = [
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Exhausted",
         icon: "crawl",
         subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        description: "Exhaustion happens when Stamina or Sanity is critically low",
+        reference: "Icara Homebrew",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "You are physically Exhausted when your Stamina is less than 5.",
+            "You are mentally Exhausted when your Sanity is less than 5.",
+            "Losing Stamina or Sanity while Exhausted causes you to suffer a random Exhaustion effect.",
+            "If you are reduced below 1, you become Incapacitated and roll on the Major Injury table.",
+            "Finishing a long rest can increase your Stamina and Sanity, provided you have food, drink, and shelter."
+        ]
+    },
+    {
+        title: "Fatigued",
+        icon: "crawl",
+        subtitle: "You are exhausted",
+        description: "Fatigue happens as Stamina or Sanity dwindle",
+        reference: "Icara Homebrew",
+        bullets: [
+            "You are physically Fatigued when your Stamina is less than 9.",
+            "You are mentally Fatigued when your Sanity is less than 9.",
+            "Losing Stamina or Sanity while Fatigued causes you to suffer a random Fatigue effect",
+            "If you are reduced below 5, you become Exhausted.",
+            "Finishing a long rest can increase your Stamina and Sanity, provided you have food, drink, and shelter."
         ]
     },
     {
