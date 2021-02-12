@@ -174,6 +174,17 @@ data_condition = [
         ]
     },
     {
+        title: "Staggered",
+        icon: "internal-injury",
+        subtitle: "You are staggered",
+        description: "You are staggered",
+        reference: "Icara Homebrew",
+        bullets: [
+            "You are staggered and off balance. You cannot take Reactions, and do not have a Threaten range.",
+            "You can recover as a free action at the start of your next turn."
+        ]
+    },
+    {
         title: "Stunned",
         icon: "internal-injury",
         subtitle: "You are stunned",

@@ -130,3 +130,45 @@ data_environment_cover = [
         ]
     }
 ]
+
+data_environment_threat = [
+    {
+        title: "Threaten",
+        icon: "muscle-up",
+        subtitle: "An enemy is within reach",
+        description: "You threaten a creature if they are in reach of your melee attacks.",
+        reference: "Icara Homebrew",
+        bullets: [
+            "If an enemy is within your threat range, they will provoke an opportunity attack if they leave without Disengaging",
+            "Normal threat range is within 5' of an enemy character.",
+            "Large, Huge, and Gargantuan creatures have an extended threat range. Certain weapons, class or creature abilities may also increase a creatures reach and threat range.",
+            "If a character is <b>Prone</b>, <b>Staggered</b>, <b>Incapacitated</b>, <b>Stunned</b>, or otherwise can't attack, they have no threat range."
+        ]
+    },
+    {
+        title: "Flank",
+        icon: "duality",
+        subtitle: "Portcullis, arrow slit",
+        description: "You flank a creature if you and an ally threaten it from different sides",
+        reference: "Icara Homebrew",
+        bullets: [
+            "When allies threaten a creature from 2 or more directions, that creature is flanked.",
+            "Each creature threatening a flanked creature gains a +2 bonus to hit.",
+            "The allies must be on different sides of the enemy. If a line drawn between the center of the allies models does not pass through the enemies occupied areas, they are not flanking.",
+            "If allies have multiple flanking bonuses, only the highest bonus applies."
+        ]
+    },
+    {
+        title: "Surround",
+        icon: "dark-squad",
+        subtitle: "Completely concealed",
+        description: "A target has total cover if it is completely concealed by an obstacle",
+        reference: "PHB, pg. 196.",
+        bullets: [
+            "When allies threaten a creature from all 4 directions, that creature is surrounded.",
+            "Each creature threatening a surrounded creature gains a +5 bonus to hit.",
+            "The allies must be on all 4 sides of the creature with no more than 5’ separating any allies. (i.e., 4 allies can surround medium creatures, but 8 medium allies are needed to surround a Large creature.",
+            "If allies have multiple flanking bonuses, only the highest bonus applies."
+        ]
+    }
+]
