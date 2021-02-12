@@ -148,12 +148,12 @@ data_environment_threat = [
     {
         title: "Flank",
         icon: "duality",
-        subtitle: "Portcullis, arrow slit",
+        subtitle: "An enemy is flanked",
         description: "You flank a creature if you and an ally threaten it from different sides",
         reference: "Icara Homebrew",
         bullets: [
             "When allies threaten a creature from 2 or more directions, that creature is flanked.",
-            "Each creature threatening a flanked creature gains a +2 bonus to hit.",
+            "Each creature threatening a flanked creature gains a <b>+2 bonus to hit</b>.",
             "The allies must be on different sides of the enemy. If a line drawn between the center of the allies models does not pass through the enemies occupied areas, they are not flanking.",
             "If allies have multiple flanking bonuses, only the highest bonus applies."
         ]
@@ -161,12 +161,12 @@ data_environment_threat = [
     {
         title: "Surround",
         icon: "dark-squad",
-        subtitle: "Completely concealed",
+        subtitle: "An enemy is surrounded",
         description: "A target has total cover if it is completely concealed by an obstacle",
         reference: "PHB, pg. 196.",
         bullets: [
             "When allies threaten a creature from all 4 directions, that creature is surrounded.",
-            "Each creature threatening a surrounded creature gains a +5 bonus to hit.",
+            "Each creature threatening a surrounded creature gains a <b>+5 bonus to hit</b>.",
             "The allies must be on all 4 sides of the creature with no more than 5’ separating any allies. (i.e., 4 allies can surround medium creatures, but 8 medium allies are needed to surround a Large creature.",
             "If allies have multiple flanking bonuses, only the highest bonus applies."
         ]
