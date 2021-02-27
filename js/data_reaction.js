@@ -53,7 +53,7 @@ data_reaction = [
         description: "Attempt to deflect the enemy blow",
         reference: "Icara Homebrew",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
+            "Trigger: enemy creature you can attacks you.",
             "Make one melee attack - compare the number to the enemy attack roll.",
             "If you match or exceed the enemy attack roll, you take half damage from the attack.",
             "Critical Success: If you roll a critical success and the enemy does not, you automatically succeed.",
