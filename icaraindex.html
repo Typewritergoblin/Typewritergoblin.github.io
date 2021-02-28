@@ -5,11 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Icara</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/mainpage.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/mainpage.js" charset="utf-8"></script>
 </head>
-<body>
-    <h1>Project Links</h1>
-    <ul>
-    <li><a href="ruleref/actions.html">5e Action and Environment Quick Reference</a></li>
+  
+ <body>
+    <div class="header">
+        <img src="wiki-img/Legends of Icara Clean Blue.png" class="Logo" alt="Legends of Icara" title="Legends of Icara"></a>
+        <div class="header-right">
+        <a class="active" href="#home">Home Page</a>
+        <a href="#login">Log In</a>
+        </div>
+      </div>
+    
+    <div id="icaraSideNav" class="sidenav">
+        <a href="ruleref/actions.html">5e Action Quick Reference</a>
+        <a href="#">Icara Wiki (placeholder)</a>
+        <a href="#">Rules (placeholder)</a>
+        <a href="#">Character Creator (placeholder)</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#171;&#171;</a>        
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      
+      <button class="openbtn" onclick="openNav()">&#187;&#187;</button>
+    
+      <!-- Add all page content inside this div to place it next to sidebar -->
+    <div id="main" class="main">
+        <h1>Welcome to Icara</h1>
+        This will be the home of the Icara ruleset and tools as they are built.
+      </div>
+    
+
+
 </ul>
 </body>
 </html>

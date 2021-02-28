@@ -1,0 +1,148 @@
+/* Setting font globally for the page Baskerville is a serif font. 
+It goes well with Lucida Grande, Helvetica Neue, Moderat, Open Sans, 
+Adelle, Avenir Next, Frutiger, Avenir, Georgia and Proxima Nova*/
+
+*{font-family:Baskerville,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;}
+
+/* The side navigation menu */
+
+/* The sidenav */
+.sidenav {
+    height: 90%;
+    width: 20%; /* 0 width - opens/closes with JavaScript in mainpage.js file*/
+    position: fixed; /* Stay at the top */
+    z-index: 1;
+    top: 15%; /* Stay at the top - Adjust for 51 px header - was way larger than anticipated.*/
+    left: 0;
+    padding: 2px;
+    margin: 2px;
+    background-color: #f1f1f1;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* Page content */
+  .main {
+    margin-left: 20%; /* Same as the width of the sidenav */
+  }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-left .5s;
+        margin: 10px;
+        padding: 10px;
+      }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: dodgerblue;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: dodgerblue;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav a .closebtn {
+    position: relative;
+    left: 50px;
+    bottom: 0px;
+
+    font-size: 36px;
+    margin-right: 5%;
+  }
+  
+  /* Position and style the open button (top right corner) */
+  .openbtn {
+    position: fixed;
+    top: 15%;
+    left: 0px;
+    font-size: 20px;
+    margin-left: 0px;
+    border: dodgerblue;
+    color: dodgerblue;
+    background-color: #fff;
+  }
+  .openbtn:hover {
+    color: #fff;
+    background-color: dodgerblue;
+  }
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 0%;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: -4px;
+    padding: 8px;
+    height: 10%;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: dodgerblue;
+    text-align: center;
+    vertical-align:bottom;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 10%;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header .logo {
+    height: 5%;
+    vertical-align:middle;
+    float: left;
+    
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    color: #fff;
+    background-color: dodgerblue;
+  }
+  .header a.active:hover {
+    color: #fff;
+    background-color: dodgerblue;
+  } 
+  
+  /* Style the active/current link*/
+  .header a.active {
+    border-bottom: 2px solid dodgerblue;
+    color: dodgerblue;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    padding-top: 4%
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
