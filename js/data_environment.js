@@ -162,7 +162,7 @@ data_environment_threat = [
         title: "Surround",
         icon: "dark-squad",
         subtitle: "An enemy is surrounded",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        description: "You surround a target if it allies threaten it from all sides.",
         reference: "PHB, pg. 196.",
         bullets: [
             "When allies threaten a creature from all 4 directions, that creature is surrounded.",
