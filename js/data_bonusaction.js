@@ -13,6 +13,34 @@ data_bonusaction = [
         ]
     },
     {
+        title: "Guard",
+        icon: "shield-reflect",
+        subtitle: "You prepare to defend from an attack",
+        description: "Reduce the damage you take by steeling yourself for impact",
+        reference: "Icara Homebrew",
+        bullets: [
+            "You guard yourself from damage, based on your armor value.",
+            "The first physical damage attack that damages you before the beginning of your next turn is reduced by your <strong>Guard</strong> value.",
+            "Damage reduction takes place before any resistances are applied."
+        ]
+    },
+    {
+        title: "Ward",
+        icon: "divert",
+        subtitle: "You prepare to defend from a spell",
+        description: "Attempt to use magic to protect the target",
+        reference: "Icara Homebrew",
+        bullets: [
+            "You prepare to protect a target from malicious magic.",
+            "Roll an <strong>Arcana(Trained)</strong> or <b>Channeling(Trained)</b> check against DC 10.",
+            "On a success, 1 target within 30' of you takes reduced damage from the first spell that damages them before the start of your next turn.",
+            "The damage is reduced by an amount equal to the spellcasting modifier of the skill check used.",
+            "If you have spell slots available, you can bolster the damage reduction by 1d6 per spell slot spent.",
+            "Damage reduction takes place before any resistances are applied.",
+            "You must be trained in the skill you use to create the Ward."
+        ]
+    },
+    {
         title: "Use Prepared Item",
         icon: "snatch",
         subtitle: "Use an available item",
